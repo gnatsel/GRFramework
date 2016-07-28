@@ -1,0 +1,36 @@
+{
+  "name": "GRFramework",
+  "version": "0.1.0",
+  "summary": "A simple MVP framework",
+  "description": "This framework adds MVP support to the native iOS SDK and a lot of utilities",
+  "homepage": "https://github.com/gnatsel/GRFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gnatsel Reivilo": "gnatsel.reivilo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gnatsel/GRFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GRFramework/Classes/**/*",
+  "dependencies": {
+    "Argo": [
+
+    ],
+    "Curry": [
+
+    ],
+    "Alamofire": [
+      "~> 3.4"
+    ],
+    "PromiseKit": [
+      "~> 3.0"
+    ]
+  }
+}

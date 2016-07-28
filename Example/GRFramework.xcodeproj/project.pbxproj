@@ -15,6 +15,11 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		62A870276FDEB715D9D9EA0B /* Pods_GRFramework_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F12851D66FD4C1FA18027A0 /* Pods_GRFramework_Example.framework */; };
+		87043D171D3CA47B00B0BCCF /* GRFrameworkExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87043D151D3CA47B00B0BCCF /* GRFrameworkExample.xcdatamodeld */; };
+		87043D241D3F529C00B0BCCF /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87043D201D3F529C00B0BCCF /* Category+CoreDataProperties.swift */; };
+		87043D251D3F529C00B0BCCF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87043D211D3F529C00B0BCCF /* Category.swift */; };
+		87043D261D3F529C00B0BCCF /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87043D221D3F529C00B0BCCF /* Product+CoreDataProperties.swift */; };
+		87043D271D3F529C00B0BCCF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87043D231D3F529C00B0BCCF /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7F12851D66FD4C1FA18027A0 /* Pods_GRFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87043D161D3CA47B00B0BCCF /* GRFrameworkExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GRFrameworkExample.xcdatamodel; sourceTree = "<group>"; };
+		87043D201D3F529C00B0BCCF /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		87043D211D3F529C00B0BCCF /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		87043D221D3F529C00B0BCCF /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		87043D231D3F529C00B0BCCF /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		947CCE4C61AEB043436064BA /* Pods-GRFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRFramework_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRFramework_Tests/Pods-GRFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C59C3A0B01788E67D74B56D7 /* GRFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GRFramework.podspec; path = ../GRFramework.podspec; sourceTree = "<group>"; };
 		FBAF512A5109F3DB9AE86375 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -102,8 +112,13 @@
 		607FACD21AFB9204008FA782 /* Example for GRFramework */ = {
 			isa = PBXGroup;
 			children = (
+				87043D201D3F529C00B0BCCF /* Category+CoreDataProperties.swift */,
+				87043D211D3F529C00B0BCCF /* Category.swift */,
+				87043D221D3F529C00B0BCCF /* Product+CoreDataProperties.swift */,
+				87043D231D3F529C00B0BCCF /* Product.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				87043D151D3CA47B00B0BCCF /* GRFrameworkExample.xcdatamodeld */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -360,7 +375,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				87043D251D3F529C00B0BCCF /* Category.swift in Sources */,
+				87043D261D3F529C00B0BCCF /* Product+CoreDataProperties.swift in Sources */,
+				87043D171D3CA47B00B0BCCF /* GRFrameworkExample.xcdatamodeld in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				87043D241D3F529C00B0BCCF /* Category+CoreDataProperties.swift in Sources */,
+				87043D271D3F529C00B0BCCF /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +595,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87043D151D3CA47B00B0BCCF /* GRFrameworkExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87043D161D3CA47B00B0BCCF /* GRFrameworkExample.xcdatamodel */,
+			);
+			currentVersion = 87043D161D3CA47B00B0BCCF /* GRFrameworkExample.xcdatamodel */;
+			path = GRFrameworkExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }

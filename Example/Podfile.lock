@@ -1,0 +1,66 @@
+PODS:
+  - Alamofire (3.4.1)
+  - Argo (3.0.1)
+  - Curry (2.3.1)
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - GRFramework (0.1.0):
+    - Alamofire (~> 3.4)
+    - Argo
+    - Curry
+    - PromiseKit (~> 3.0)
+  - Nimble (3.2.0)
+  - Nimble-Snapshots (4.1.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble
+    - Quick
+  - OMGHTTPURLRQ (3.1.2):
+    - OMGHTTPURLRQ/RQ (= 3.1.2)
+  - OMGHTTPURLRQ/FormURLEncode (3.1.2)
+  - OMGHTTPURLRQ/RQ (3.1.2):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.1.2)
+  - PromiseKit (3.2.1):
+    - PromiseKit/Foundation (= 3.2.1)
+    - PromiseKit/QuartzCore (= 3.2.1)
+    - PromiseKit/UIKit (= 3.2.1)
+  - PromiseKit/CorePromise (3.2.1)
+  - PromiseKit/Foundation (3.2.1):
+    - OMGHTTPURLRQ (~> 3.1.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (3.2.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (3.2.1):
+    - PromiseKit/CorePromise
+  - Quick (0.9.2)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GRFramework (from `../`)
+  - Nimble (~> 3.0)
+  - Nimble-Snapshots
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  GRFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Argo: 22c5d62b7967020a641468c91dc9488bea9523b8
+  Curry: c8f65c8ade091aad5cb86f7b51dd408d698810ca
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  GRFramework: a3aa90ed520198e616b403f8a5c6b5fb8159cf70
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Nimble-Snapshots: 2da4d2ec829b458d6886c06812c52493fce284c9
+  OMGHTTPURLRQ: 38316b56d88125c600bcdb16df8329147da2b0ee
+  PromiseKit: ef54f61501541bf18a87b25115c372184d180cea
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+
+PODFILE CHECKSUM: 6667b3c932342f48a8b089f59fdeef05886b896e
+
+COCOAPODS: 1.0.1
